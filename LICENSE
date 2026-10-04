@@ -1,24 +1,32 @@
 JaySay's Echo Tools — License
 Copyright (c) 2026 JaySay. All Rights Reserved.
 
-The mod "JaySay's Echo Tools" — including its source code, textures, models,
-animations, data files, language files and every other asset in this repository —
-is protected by copyright. No licence is granted except as stated below.
+The mod "JaySay's Echo Tools" — source code, textures, models, animations, data
+files, language files and every other asset in this repository — is protected by
+copyright. The rights below are the only rights granted.
 
-You may:
+You may, without asking for permission:
   - download and play the mod for personal use;
-  - link to this repository or to the official CurseForge / Modrinth pages.
+  - include this mod, UNMODIFIED, in modpacks distributed on any platform
+    (CurseForge, Modrinth, FTB, Technic, private or public servers and launchers),
+    including modpacks monetised through a platform's own reward programme;
+  - link to this repository or to the official download pages;
+  - show the mod in videos, streams, articles and screenshots.
 
 You may not, without prior written permission from the author:
-  - redistribute the mod or its assets, in whole or in part, on any website, launcher,
-    mirror, modpack or other product;
-  - reupload the compiled jar or the source code anywhere else;
-  - modify, reverse engineer for redistribution, or sell the mod or its assets.
+  - reupload or redistribute the mod or its assets as a standalone download, or
+    on a mirror, launcher, mod site or file host;
+  - modify, decompile for redistribution, or reuse the code or assets in another
+    project or modpack of your own making;
+  - sell the mod or its assets on their own.
+
+Notes for modpack authors: keep the mod file unmodified, and link back to this
+repository or the official download page. Credit is appreciated, not required.
 
 Third-party material keeps its own licence:
   - Files taken from the Minecraft Forge MDK (gradlew / gradlew.bat, the Gradle
     wrapper, build.gradle, settings.gradle, gradle.properties boilerplate,
     CREDITS.txt, README.txt, changelog.txt) remain under the Forge MDK licence;
     see LICENSE-Forge-MDK.txt.
-  - Minecraft is a trademark of Mojang Synergies AB. This mod is not affiliated with
-    Mojang Studios or Microsoft.
+  - Minecraft is a trademark of Mojang Synergies AB. This mod is not affiliated
+    with Mojang Studios or Microsoft.

@@ -1,7 +1,0 @@
-# Native 64px ordinary pickaxe source for 0.1.4
-
-This source implements the root-approved ordinary pickaxe while preserving the complete 0.1.2 silhouette. The authoritative alpha comes from the fixed 0.1.2 ordinary PNG, scaled only with nearest-neighbor 2x; all 1196 opaque native64 texels are recorded explicitly in `native64-tip-map.json`. Internal color refinements keep the old dark sculk, cyan fissure, and ivory placement. Dark/cyan shades receive directed 1px facets along existing same-material boundaries. A few continuous 1px ivory highlight/shadow cuts sit only inside old ivory texels at the hook, outer blade edge, and pommel. There is no spatial sampling from approved64 and no random noise.
-
-`ordinary-native64-approved.png` is the final, root-reviewed bare texture. `render_native64_draft.py` reproduces it from the pinned 0.1.2 JAR and writes the compact white-background comparison boards to `artwork/validation/v0.1.4/draft/`. The imagegen concept files in this directory are rejected design references only; none of their pixels are used.
-
-`build_native64_candidate.py` reads only the fixed 0.1.3 baseline JAR, the frozen 203-texel 0.1.4 tip mask, and the approved native64 image. It writes only `artwork/validation/v0.1.4/candidate/`. For res=0 variants, it replaces pixels and glow frame texels only inside that mask; outside the mask, every same-index baseline pixel is preserved. All res>=1 resources remain byte-identical to the baseline. It never deploys, changes game code/version, builds, or installs.

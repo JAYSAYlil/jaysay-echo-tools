@@ -1,9 +1,0 @@
-# Approved reference 64px integration source
-
-The user-approved concept is the single visual source for the 64×64 full-upgrade image. `build_approved64_variants.py` samples it with nearest-neighbor filtering, normalizes alpha at 128, creates an unupgraded 64px sculk underlay and component/tier masks, then writes 95 isolated candidate models/textures. The all-maximum state is pixel-exact to `approved-reference-normalized64.png`.
-
-Resonance II adds the warm red left blade cap: tier I is the broad main facet; tier II adds crown highlights and the lower facet. Frequency III wraps the right jaw in four purple crystal sections: tier I adds the upper wrap, tier II the broad middle facet, and tier III the two lower sections. Tuning I adds the central ice-white four-point star. Extension III adds the tail's green oval eye (tier I), bright iris/highlight (tier II), and three ivory claw supports (tier III).
-
-The common underlay follows the original 32px item's silhouette; feature pixels outside that silhouette remain transparent until their module tier activates. The original bare 32px PNG/model/glow/meta remain unchanged. The approved 64px variants were deployed to `src/main/resources/assets/echopickaxe/` on 2026-10-03 after root candidate audit approval; the 380 deployed files are listed with SHA-256 values in `artwork/validation/v0.1.2/pickaxe/approved-reference-oct03-64-review/deployment-sha256-approved64.csv`. Variant prisms use 0.25-unit XY texels at Z 7.5–8.5 and UV texel centers `(x+0.5)/4,(y+0.5)/4`; display transforms are copied from the original model.
-
-Run from the repository root: `python artwork/source/approved-reference-oct03-64/build_approved64_variants.py`. The generator keeps the previous 32px candidate in ignored `artwork/validation/v0.1.2/pickaxe/pre-deploy-native32-retained/` and regenerates the 64px candidate only when its current manifest matches this approved reference hash.

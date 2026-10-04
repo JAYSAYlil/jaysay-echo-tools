@@ -54,4 +54,4 @@ English and Simplified Chinese, including item tooltips and advancement text.
 
 ## License
 
-All rights reserved. Please do not redistribute the mod or its assets without permission.
+All rights reserved, **but modpacks are welcome**: you may include this mod unmodified in any modpack, on any platform, without asking. Reuploading the mod as a standalone download or reusing its assets in another project is not allowed. See [LICENSE](LICENSE) for the exact terms.
