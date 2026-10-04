@@ -1,0 +1,8 @@
+{
+  "type": "echopickaxe:echo_upgrade",
+  "template": { "item": "echopickaxe:echo_upgrade_smithing_template" },
+  "base": { "item": "echopickaxe:echo_pickaxe" },
+  "addition": { "item": "echopickaxe:enhanced_extension_crystal_2" },
+  "upgrade": "extension",
+  "level": 3
+}

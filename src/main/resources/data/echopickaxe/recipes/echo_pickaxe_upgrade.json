@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": { "item": "echopickaxe:echo_upgrade_smithing_template" },
+  "base": { "item": "minecraft:diamond_pickaxe" },
+  "addition": { "item": "echopickaxe:echo_crystal" },
+  "result": { "item": "echopickaxe:echo_pickaxe" }
+}

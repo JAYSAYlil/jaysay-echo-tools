@@ -1,0 +1,26 @@
+{
+  "parent": "echopickaxe:first_echo",
+  "display": {
+    "icon": { "item": "echopickaxe:resonance_crystal" },
+    "title": { "translate": "advancement.echopickaxe.first_upgrade.title" },
+    "description": { "translate": "advancement.echopickaxe.first_upgrade.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "resonance1": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["echopickaxe:echo_pickaxe"], "nbt": "{EchoUpgrades:{resonance:1}}" }] } },
+    "resonance2": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["echopickaxe:echo_pickaxe"], "nbt": "{EchoUpgrades:{resonance:2}}" }] } },
+    "frequency1": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["echopickaxe:echo_pickaxe"], "nbt": "{EchoUpgrades:{frequency:1}}" }] } },
+    "frequency2": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["echopickaxe:echo_pickaxe"], "nbt": "{EchoUpgrades:{frequency:2}}" }] } },
+    "frequency3": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["echopickaxe:echo_pickaxe"], "nbt": "{EchoUpgrades:{frequency:3}}" }] } },
+    "tuning1": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["echopickaxe:echo_pickaxe"], "nbt": "{EchoUpgrades:{tuning:1}}" }] } },
+    "extension1": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["echopickaxe:echo_pickaxe"], "nbt": "{EchoUpgrades:{extension:1}}" }] } },
+    "extension2": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["echopickaxe:echo_pickaxe"], "nbt": "{EchoUpgrades:{extension:2}}" }] } },
+    "extension3": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["echopickaxe:echo_pickaxe"], "nbt": "{EchoUpgrades:{extension:3}}" }] } }
+  },
+  "requirements": [
+    ["resonance1", "resonance2", "frequency1", "frequency2", "frequency3", "tuning1", "extension1", "extension2", "extension3"]
+  ]
+}

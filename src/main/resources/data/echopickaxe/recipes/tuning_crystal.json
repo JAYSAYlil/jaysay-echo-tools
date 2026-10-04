@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["SXS", "SCS", "SSS"],
+  "key": {
+    "S": { "item": "minecraft:echo_shard" },
+    "X": { "item": "minecraft:nether_star" },
+    "C": { "item": "echopickaxe:echo_crystal" }
+  },
+  "result": { "item": "echopickaxe:tuning_crystal" }
+}

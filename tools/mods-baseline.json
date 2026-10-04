@@ -1,0 +1,22 @@
+﻿[
+    {
+        "Name":  "mezz_config-1.20.1-forge-0.6.8.jar",
+        "Length":  364842,
+        "SHA256":  "93D04B64ED5120350AED8A6D25EFE5703FDBC720C233D7DA3274FEAFD076C7E1"
+    },
+    {
+        "Name":  "OptiFine_1.20.1_HD_U_I6.jar",
+        "Length":  7145205,
+        "SHA256":  "0B67CB670AEDF2E55A982F3D52B6D53E46791A0C984AA1D2EE58100FC9BFC650"
+    },
+    {
+        "Name":  "[JEI物品管理器] jei-1.20.1-forge-15.62.0.219.jar",
+        "Length":  2232177,
+        "SHA256":  "E05B2427251D26FC6D15D7AF65F918D0F00B4CC317FFA22E6D83C65D4EC8EAD9"
+    },
+    {
+        "Name":  "[独特武装]Exception Armorer_v1.0.14_for_tacz1.1.8.zip",
+        "Length":  27121313,
+        "SHA256":  "87E63A12888D304B8929A56780E7E7711CB676C515B1469301119BD5F2346154"
+    }
+]

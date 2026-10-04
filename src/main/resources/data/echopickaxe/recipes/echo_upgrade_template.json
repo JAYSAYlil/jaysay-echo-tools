@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["SDS", "STS", "SSS"],
+  "key": {
+    "D": { "item": "minecraft:diamond" },
+    "T": { "item": "echopickaxe:echo_upgrade_smithing_template" },
+    "S": { "item": "minecraft:sculk" }
+  },
+  "result": { "item": "echopickaxe:echo_upgrade_smithing_template", "count": 2 }
+}

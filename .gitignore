@@ -1,0 +1,53 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+
+# Files from Forge MDK
+forge*changelog.txt
+
+# local toolchain downloads and build artifacts
+/gradle-8.9-bin.zip
+/gradle-8.9-bin.zip.sha256
+/temp-gradle/
+/*.log
+
+# per-version working copies that duplicate src/ or a previous release
+artwork/validation/*/candidate/
+artwork/validation/**/candidate/
+artwork/validation/**/candidate-attempt-*/
+artwork/validation/v0.1.5/curved-tip-candidate/
+artwork/validation/v0.1.5/curved-tip-candidate-rejected-flat-material/
+artwork/validation/v0.1.9/refined-ends-candidate/
+artwork/validation/v0.1.10/refined-ends-candidate/
+artwork/validation/*/pre-deploy-*/
+artwork/validation/**/pre-deploy-*/
+artwork/validation/*/prototype/
+
+# Python generator caches
+__pycache__/
+*.pyc
+# Superseded v0.1.7 visual exploration drafts; final frozen previews and map remain tracked.
+artwork/validation/v0.1.7/draft/
+artwork/validation/v0.1.7/draft-2/
+artwork/validation/v0.1.7/draft-3/
+artwork/validation/v0.1.7/draft-4/
+artwork/validation/v0.1.7/rejected-draft-1/

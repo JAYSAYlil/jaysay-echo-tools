@@ -1,0 +1,26 @@
+{
+  "parent": "echopickaxe:first_upgrade",
+  "display": {
+    "icon": { "item": "echopickaxe:echo_pickaxe" },
+    "title": { "translate": "advancement.echopickaxe.all_echoes.title" },
+    "description": { "translate": "advancement.echopickaxe.all_echoes.description" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fully_upgraded_echo_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["echopickaxe:echo_pickaxe"],
+            "nbt": "{EchoUpgrades:{resonance:2,frequency:3,tuning:1,extension:3}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": { "experience": 100 }
+}

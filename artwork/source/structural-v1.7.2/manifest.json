@@ -1,0 +1,257 @@
+{
+  "version": "1.7.2-candidate",
+  "scope": "extension_crystal only; two enhanced extension assets are exact 1.7.1 copies",
+  "source_png": "artwork/source/emissive-v1.6.0/base_textures/extension_crystal.png",
+  "base_snapshot": "artwork/source/structural-v1.7.2/base_1.7.1",
+  "original_pupil": {
+    "x": 17,
+    "y": [
+      14,
+      15,
+      16,
+      17
+    ],
+    "rgb": [
+      [
+        3,
+        14,
+        33
+      ],
+      [
+        1,
+        20,
+        35
+      ],
+      [
+        3,
+        9,
+        26
+      ],
+      [
+        3,
+        11,
+        27
+      ]
+    ]
+  },
+  "motion": {
+    "frames": 32,
+    "frametime_ticks": 3,
+    "cycle_ticks": 96,
+    "center_x": 17,
+    "left_x": 16,
+    "right_x": 18,
+    "center_frames": 24,
+    "left_frames": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "right_frames": [
+      23,
+      24,
+      25,
+      26
+    ],
+    "pupil_height": 4,
+    "pupil_width": 1,
+    "interpolate": false,
+    "blink": false,
+    "iris_redrawn": false,
+    "new_highlights": false,
+    "vacated_center_fill": "fixed per-row source colors independent of gaze: y14=x18, y15=x18, y16=x18, y17=x16; avoids extending pale highlights"
+  },
+  "mask_pixels": 46,
+  "mask_coordinates": [
+    [
+      18,
+      11
+    ],
+    [
+      18,
+      12
+    ],
+    [
+      19,
+      12
+    ],
+    [
+      14,
+      13
+    ],
+    [
+      16,
+      13
+    ],
+    [
+      17,
+      13
+    ],
+    [
+      19,
+      13
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      15,
+      14
+    ],
+    [
+      16,
+      14
+    ],
+    [
+      17,
+      14
+    ],
+    [
+      18,
+      14
+    ],
+    [
+      11,
+      15
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      16,
+      15
+    ],
+    [
+      17,
+      15
+    ],
+    [
+      18,
+      15
+    ],
+    [
+      19,
+      15
+    ],
+    [
+      21,
+      15
+    ],
+    [
+      12,
+      16
+    ],
+    [
+      14,
+      16
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      16,
+      16
+    ],
+    [
+      17,
+      16
+    ],
+    [
+      18,
+      16
+    ],
+    [
+      20,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      15,
+      17
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      17,
+      17
+    ],
+    [
+      18,
+      17
+    ],
+    [
+      19,
+      17
+    ],
+    [
+      11,
+      18
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      16,
+      18
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      18,
+      18
+    ],
+    [
+      21,
+      18
+    ],
+    [
+      15,
+      19
+    ],
+    [
+      17,
+      19
+    ],
+    [
+      20,
+      19
+    ],
+    [
+      13,
+      20
+    ],
+    [
+      15,
+      20
+    ],
+    [
+      16,
+      20
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      15,
+      22
+    ]
+  ],
+  "model_faces": 92,
+  "unchanged_items": {
+    "enhanced_extension_crystal": "candidate files copied byte-for-byte from 1.7.1 snapshot",
+    "enhanced_extension_crystal_2": "candidate files copied byte-for-byte from 1.7.1 snapshot"
+  }
+}

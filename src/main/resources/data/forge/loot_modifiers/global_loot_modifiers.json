@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "entries": [
+    "echopickaxe:ancient_city_echo_template",
+    "echopickaxe:warden_echo_template",
+    "echopickaxe:sculk_echo_shard"
+  ]
+}

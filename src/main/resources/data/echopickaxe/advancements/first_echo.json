@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": { "item": "echopickaxe:echo_pickaxe" },
+    "title": { "translate": "advancement.echopickaxe.first_echo.title" },
+    "description": { "translate": "advancement.echopickaxe.first_echo.description" },
+    "background": "minecraft:textures/block/sculk.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_echo_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["echopickaxe:echo_pickaxe"] }
+        ]
+      }
+    }
+  }
+}

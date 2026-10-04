@@ -1,0 +1,143 @@
+{
+  "baseline": "jaysay-echo-tools-1.6.0.jar",
+  "candidate_only": false,
+  "items": [
+    "echo_crystal",
+    "echo_pickaxe",
+    "echo_upgrade_smithing_template",
+    "enhanced_extension_crystal_2",
+    "enhanced_extension_crystal",
+    "enhanced_frequency_crystal_2",
+    "enhanced_frequency_crystal",
+    "enhanced_resonance_crystal",
+    "extension_crystal",
+    "frequency_crystal",
+    "resonance_crystal",
+    "tuning_crystal"
+  ],
+  "byte_exact_baseline_items": [
+    "echo_crystal",
+    "echo_pickaxe",
+    "echo_upgrade_smithing_template",
+    "enhanced_extension_crystal_2",
+    "enhanced_extension_crystal",
+    "enhanced_frequency_crystal_2",
+    "enhanced_frequency_crystal",
+    "enhanced_resonance_crystal",
+    "frequency_crystal",
+    "resonance_crystal"
+  ],
+  "all_base_textures_byte_exact": true,
+  "extension": {
+    "cycle_ticks": 192,
+    "frames": 192,
+    "frametime_ticks": 1,
+    "legacy_resample": "For each tick t, oldIndex=(t//4)%16, next=(oldIndex+1)%16, weight=(t%4)/4; RGB is the integer-truncated linear interpolation between those 1.6.0 frames, preserving current-frame alpha.",
+    "pupil_tick": "t mod 96",
+    "pupil_x": "16 when 27<=tick<39; 18 when 69<=tick<81; otherwise 17",
+    "pupil_y": [
+      14,
+      15,
+      16,
+      17
+    ],
+    "pupil_rgba": "exact source x17 values",
+    "restoration_x": {
+      "14": 18,
+      "15": 18,
+      "16": 18,
+      "17": 16
+    },
+    "fixed_mask_union_pixels": 100,
+    "interpolate": false
+  },
+  "tuning": {
+    "cycle_ticks": 96,
+    "frames": 16,
+    "frametime_ticks": 6,
+    "original_glow_frames_preserved": true,
+    "added_glow_coordinates": [
+      [
+        14,
+        11
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        20
+      ],
+      [
+        14,
+        21
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        18,
+        15
+      ],
+      [
+        19,
+        15
+      ]
+    ],
+    "schedule": "Each arm ripples sequentially: inner point, both tips, inner-only return, then source RGB.",
+    "fixed_mask_union_pixels": 132,
+    "interpolate": true
+  },
+  "tuning_coordinates": {
+    "north": [
+      [
+        14,
+        11
+      ],
+      [
+        14,
+        10
+      ]
+    ],
+    "south": [
+      [
+        14,
+        20
+      ],
+      [
+        14,
+        21
+      ]
+    ],
+    "west": [
+      [
+        10,
+        15
+      ],
+      [
+        9,
+        15
+      ]
+    ],
+    "east": [
+      [
+        18,
+        15
+      ],
+      [
+        19,
+        15
+      ]
+    ]
+  },
+  "status": "deployed_and_frozen",
+  "deployed_to": "src/main/resources/assets/echopickaxe",
+  "deployment_hashes": "artwork/validation/v1.7.4/deployment-hashes.json",
+  "predeploy_snapshot": "artwork/validation/v1.7.4/pre-deploy-1.7.3/assets/echopickaxe"
+}

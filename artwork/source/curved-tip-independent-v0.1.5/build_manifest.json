@@ -1,0 +1,14 @@
+{
+  "base": "artwork/source/approved-reference-oct03-64/common64-unupgraded.png",
+  "old_source": "jaysay-echo-tools-0.1.2.jar!assets/echopickaxe/textures/item/echo_pickaxe.png",
+  "old_source_sha256": "C1F7A1F94009E274F369DA857777E2BD32F77EF951427AB38E6160CC1BE7DBEB",
+  "overlay_box_inclusive": [
+    7,
+    8,
+    30,
+    26
+  ],
+  "newly_filled_pixels": 147,
+  "output": "curved-tip-native64.png",
+  "notes": "Existing common64 pixels retained in overlap. Overlay shape is old alpha nearest-neighbor x2, clipped to work box. New pixels use native one-pixel facet palette."
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "echopickaxe:item/echo_pickaxe"
+  }
+}

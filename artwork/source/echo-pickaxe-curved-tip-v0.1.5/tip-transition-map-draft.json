@@ -1,0 +1,170 @@
+{
+  "status": "draft-for-root-review",
+  "ordinaryJarSha256": "7312AE7B54F3DAD998815B7C7BD601B65DB1BED23A21CC7AA8448E40E082F495",
+  "res0BaselineJarSha256": "9A3D6C0D9B5485C397117CBF00C00C31DA04A339838831231EC5C31B552D67AF",
+  "outlineSource": "ordinary 0.1.2 echo_pickaxe.png alpha resized nearest-neighbor 2x",
+  "regionXYxy": [
+    7,
+    8,
+    32,
+    27
+  ],
+  "transitionMaskTexels": 520,
+  "oldOrdinaryOpaqueTexelsInRegion": 262,
+  "opaqueTexels": 1046,
+  "components4": [
+    1046
+  ],
+  "components8": [
+    1046
+  ],
+  "moduleOverlap": {
+    "frequency": 0,
+    "tuning": 0,
+    "extension": 0
+  },
+  "artDirection": "Only legacy alpha defines the curved-tip outline. New pixels use dark cyan-black native common64 sculk facets and a fine cyan fissure; no legacy color classification is used.",
+  "pixelDetails": {
+    "material": "all 520 ROI texels repainted from approved native common64 sculk palette",
+    "fissure": [
+      [
+        30,
+        9
+      ],
+      [
+        29,
+        10
+      ],
+      [
+        29,
+        11
+      ],
+      [
+        28,
+        11
+      ],
+      [
+        27,
+        12
+      ],
+      [
+        26,
+        12
+      ],
+      [
+        25,
+        13
+      ],
+      [
+        24,
+        13
+      ],
+      [
+        23,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        21,
+        15
+      ],
+      [
+        20,
+        15
+      ],
+      [
+        19,
+        16
+      ],
+      [
+        18,
+        16
+      ],
+      [
+        17,
+        17
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        16,
+        19
+      ],
+      [
+        15,
+        20
+      ],
+      [
+        14,
+        21
+      ]
+    ],
+    "threeBodyMatchGlints": [
+      [
+        [
+          14,
+          22
+        ],
+        [
+          15,
+          21
+        ],
+        [
+          16,
+          20
+        ],
+        [
+          16,
+          19
+        ]
+      ],
+      [
+        [
+          19,
+          17
+        ],
+        [
+          20,
+          16
+        ],
+        [
+          21,
+          16
+        ],
+        [
+          22,
+          15
+        ]
+      ],
+      [
+        [
+          26,
+          13
+        ],
+        [
+          27,
+          12
+        ],
+        [
+          28,
+          12
+        ],
+        [
+          29,
+          11
+        ]
+      ]
+    ],
+    "legacyRgbRead": false
+  },
+  "previews": [
+    "curved-tip-whole-4x-white-dark.png",
+    "curved-tip-closeup-8x-white-dark.png"
+  ],
+  "candidateResourcesGenerated": false
+}

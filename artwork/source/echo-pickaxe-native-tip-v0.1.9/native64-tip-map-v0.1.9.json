@@ -1,0 +1,680 @@
+{
+  "schema": 3,
+  "status": "root-approved-tip-draft-frozen-candidate-pending-audit",
+  "version": "0.1.9-native64-tip-sharpening",
+  "baselineJar": "jaysay-echo-tools-0.1.8.jar",
+  "baselineJarSha256": "BF962BA4F64395EDA4227B9C1B9CB7437B800B468DFE8EED7A24FAAEEDC07778",
+  "editMask": "artwork/source/echo-pickaxe-native-tip-v0.1.9/native64-tip-edit-mask-v0.1.9.png",
+  "editMaskSha256": "B0B122AABEC69F69DC2F638EBB89BD0C6CF2A3437521F228F940E8A8176D6AC1",
+  "editMaskPixels": 8,
+  "underlay": "artwork/source/echo-pickaxe-native-tip-v0.1.9/native64-tip-underlay-v0.1.9.png",
+  "underlaySha256": "65EBE472A4B8697B5380B5E201A0009105E1F6C021EF002F5D8E640C0D852E82",
+  "outline": {
+    "removed": [
+      [
+        12,
+        25
+      ],
+      [
+        13,
+        24
+      ]
+    ],
+    "added": [
+      [
+        10,
+        25
+      ],
+      [
+        10,
+        26
+      ]
+    ],
+    "fourConnected": true,
+    "extensionTexels": 1,
+    "description": "Row 24 narrows to three texels; row 25 shifts to two; row 26 ends in one connected texel."
+  },
+  "nativeBodyColorSamples": [
+    {
+      "target": [
+        10,
+        24
+      ],
+      "sourceV031Shaft": [
+        24,
+        38
+      ],
+      "sourceRGBA": [
+        0,
+        16,
+        23,
+        255
+      ],
+      "sourceGlowFramesAlpha": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        10,
+        25
+      ],
+      "sourceV031Shaft": [
+        25,
+        37
+      ],
+      "sourceRGBA": [
+        0,
+        28,
+        39,
+        255
+      ],
+      "sourceGlowFramesAlpha": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        10,
+        26
+      ],
+      "sourceV031Shaft": [
+        25,
+        38
+      ],
+      "sourceRGBA": [
+        0,
+        53,
+        68,
+        255
+      ],
+      "sourceGlowFramesAlpha": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        11,
+        24
+      ],
+      "sourceV031Shaft": [
+        24,
+        37
+      ],
+      "sourceRGBA": [
+        1,
+        54,
+        70,
+        255
+      ],
+      "sourceGlowFramesAlpha": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        11,
+        25
+      ],
+      "sourceV031Shaft": [
+        24,
+        38
+      ],
+      "sourceRGBA": [
+        0,
+        16,
+        23,
+        255
+      ],
+      "sourceGlowFramesAlpha": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        12,
+        24
+      ],
+      "sourceV031Shaft": [
+        28,
+        36
+      ],
+      "sourceRGBA": [
+        0,
+        43,
+        58,
+        255
+      ],
+      "sourceGlowFramesAlpha": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "frozenRGBAByPixel": [
+    {
+      "pixel": [
+        10,
+        24
+      ],
+      "baselineRGBA": [
+        8,
+        31,
+        44,
+        255
+      ],
+      "frozenRGBA": [
+        0,
+        16,
+        23,
+        255
+      ],
+      "change": "rgb-only",
+      "emissiveSource": "pinned v0.1.8 frame unchanged; alpha 0"
+    },
+    {
+      "pixel": [
+        11,
+        24
+      ],
+      "baselineRGBA": [
+        6,
+        30,
+        41,
+        255
+      ],
+      "frozenRGBA": [
+        1,
+        54,
+        70,
+        255
+      ],
+      "change": "rgb-only",
+      "emissiveSource": "pinned v0.1.8 frame unchanged; alpha 0"
+    },
+    {
+      "pixel": [
+        12,
+        24
+      ],
+      "baselineRGBA": [
+        5,
+        29,
+        40,
+        255
+      ],
+      "frozenRGBA": [
+        0,
+        43,
+        58,
+        255
+      ],
+      "change": "rgb-only",
+      "emissiveSource": "pinned v0.1.8 frame unchanged; alpha 0"
+    },
+    {
+      "pixel": [
+        13,
+        24
+      ],
+      "baselineRGBA": [
+        3,
+        27,
+        39,
+        255
+      ],
+      "frozenRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "change": "removed-alpha",
+      "emissiveSource": null
+    },
+    {
+      "pixel": [
+        10,
+        25
+      ],
+      "baselineRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "frozenRGBA": [
+        0,
+        28,
+        39,
+        255
+      ],
+      "change": "added-alpha",
+      "emissiveSource": "pinned v0.1.8 frame unchanged; alpha 0"
+    },
+    {
+      "pixel": [
+        11,
+        25
+      ],
+      "baselineRGBA": [
+        6,
+        30,
+        41,
+        255
+      ],
+      "frozenRGBA": [
+        0,
+        16,
+        23,
+        255
+      ],
+      "change": "rgb-only",
+      "emissiveSource": "pinned v0.1.8 frame unchanged; alpha 0"
+    },
+    {
+      "pixel": [
+        12,
+        25
+      ],
+      "baselineRGBA": [
+        5,
+        29,
+        40,
+        255
+      ],
+      "frozenRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "change": "removed-alpha",
+      "emissiveSource": null
+    },
+    {
+      "pixel": [
+        10,
+        26
+      ],
+      "baselineRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "frozenRGBA": [
+        0,
+        53,
+        68,
+        255
+      ],
+      "change": "added-alpha",
+      "emissiveSource": "pinned v0.1.8 frame unchanged; alpha 0"
+    }
+  ],
+  "glowContract": "No edited tip texel emits in any of 16 pinned baseline frames. All 31 res0 glow strips are kept byte-identical; no emission is added to the sharpened edge.",
+  "modelContract": "Exactly two elements removed and two added. Added prisms are helper-generated native64 .25 x .25 x 1.0 units (Z 7.5..8.5); survivors preserve geometry and texel-center UV. Sidewall visibility changes follow only adjacent alpha add/remove.",
+  "sidewallExposureChanges": [
+    {
+      "pixel": [
+        13,
+        23
+      ],
+      "face": "down",
+      "change": "added",
+      "causedByAlphaAt": [
+        13,
+        24
+      ]
+    },
+    {
+      "pixel": [
+        10,
+        24
+      ],
+      "face": "down",
+      "change": "removed",
+      "causedByAlphaAt": [
+        10,
+        25
+      ]
+    },
+    {
+      "pixel": [
+        12,
+        24
+      ],
+      "face": "east",
+      "change": "added",
+      "causedByAlphaAt": [
+        13,
+        24
+      ]
+    },
+    {
+      "pixel": [
+        12,
+        24
+      ],
+      "face": "down",
+      "change": "added",
+      "causedByAlphaAt": [
+        12,
+        25
+      ]
+    },
+    {
+      "pixel": [
+        11,
+        25
+      ],
+      "face": "west",
+      "change": "removed",
+      "causedByAlphaAt": [
+        10,
+        25
+      ]
+    },
+    {
+      "pixel": [
+        11,
+        25
+      ],
+      "face": "east",
+      "change": "added",
+      "causedByAlphaAt": [
+        12,
+        25
+      ]
+    }
+  ],
+  "resourceCounts": {
+    "changed": 62,
+    "byteIdenticalGlow": 31,
+    "allowedTotal": 93
+  },
+  "ordinary012": "Not included; exact original resource quartet retained.",
+  "resonancePositive": "Not included; remains byte-identical to pinned 0.1.8.",
+  "unchangedGlow": [
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v001_glow.png",
+      "sha256": "181A373750E1684E715A3CC3769213B65F9CE4ECF8BBD44B0A7BEF142F37B756",
+      "bytes": 7847,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v002_glow.png",
+      "sha256": "8230753DFD22931C2DE7AC540A41ED17ADD68C63D545879DD4A55261A9F2D623",
+      "bytes": 8560,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v003_glow.png",
+      "sha256": "8230753DFD22931C2DE7AC540A41ED17ADD68C63D545879DD4A55261A9F2D623",
+      "bytes": 8560,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v004_glow.png",
+      "sha256": "FF05EA24FDAF239548BE0021C44EAD1BBD120BEB33B7A48F520B1D4EE63B8FE5",
+      "bytes": 7468,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v005_glow.png",
+      "sha256": "43021651738A5E6E84EEBABA666D4B57985B8BC4DD916FA9AAD613D9DE880A06",
+      "bytes": 8278,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v006_glow.png",
+      "sha256": "C3DD6F4906667FF5CC367F44CCE48D7D6D1AADAC112C8F1E74D4C130BE107A7E",
+      "bytes": 8998,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v007_glow.png",
+      "sha256": "C3DD6F4906667FF5CC367F44CCE48D7D6D1AADAC112C8F1E74D4C130BE107A7E",
+      "bytes": 8998,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v008_glow.png",
+      "sha256": "BA13EEB5DEE9ECBB4C96F8C5BE1530A594866001270110CD6692BFBA8F913FB4",
+      "bytes": 8203,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v009_glow.png",
+      "sha256": "E77E02089EF5A94C483BD78ACB3BD48B79C91F92DDD792AD903CB7A7AB5670BA",
+      "bytes": 9008,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v010_glow.png",
+      "sha256": "D739D2B3C044E99A8BD9899BAE5D8A6BAA322CEE77E47A6123F00FF8D62430D9",
+      "bytes": 9735,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v011_glow.png",
+      "sha256": "D739D2B3C044E99A8BD9899BAE5D8A6BAA322CEE77E47A6123F00FF8D62430D9",
+      "bytes": 9735,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v012_glow.png",
+      "sha256": "5193A224F2EE0EAA1EC2A1F8EA46BD5FC9CB1E809590E27635D47D5A5F930500",
+      "bytes": 8526,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v013_glow.png",
+      "sha256": "7B868E9B26D648A6EF593BF123E199E66E6F74AD85F0C3EC555B2C5058D012F7",
+      "bytes": 9327,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v014_glow.png",
+      "sha256": "ACF4A50874EE17F1F451A8FD31B3A5E36060F180EC5B3903E58263B6BCB8C36C",
+      "bytes": 10056,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v015_glow.png",
+      "sha256": "ACF4A50874EE17F1F451A8FD31B3A5E36060F180EC5B3903E58263B6BCB8C36C",
+      "bytes": 10056,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v016_glow.png",
+      "sha256": "684EA2F02A5CA7012BAC756D5B7B6FC7EEEB3F695183894B1CDC10A8892E7E55",
+      "bytes": 9837,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v017_glow.png",
+      "sha256": "C55746C21C16AA025E6CB7FB8B0117D0865F76BC343A24F3AAC6A3BBFEA9C908",
+      "bytes": 10639,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v018_glow.png",
+      "sha256": "7E4E04D4A56AA6241C1CD12A407AC5DA88E88DB7B1EFFD727405F5F7BDBD1B85",
+      "bytes": 11357,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v019_glow.png",
+      "sha256": "7E4E04D4A56AA6241C1CD12A407AC5DA88E88DB7B1EFFD727405F5F7BDBD1B85",
+      "bytes": 11357,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v020_glow.png",
+      "sha256": "1EB62AE60F1980114E9D50D8B3420F0BE530BE9BEF26384A5B76B9D56103C3F7",
+      "bytes": 10157,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v021_glow.png",
+      "sha256": "AC634CA923C1CA454505C89A6C3612156DF516E27E4A0E5D35072B7E562DCEAE",
+      "bytes": 10957,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v022_glow.png",
+      "sha256": "7951D0B47CB40F89AAA50B59F532C093041563308C6F9C7E7E5E5F165B596B79",
+      "bytes": 11677,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v023_glow.png",
+      "sha256": "7951D0B47CB40F89AAA50B59F532C093041563308C6F9C7E7E5E5F165B596B79",
+      "bytes": 11677,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v024_glow.png",
+      "sha256": "F46397E0CF1E4149CF49FD589615404D522411226886F826A982D4E89AF15523",
+      "bytes": 11003,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v025_glow.png",
+      "sha256": "0D3FDC944A7D455B709ACCC7267C287FE732240938379A2C04DF3947D7183335",
+      "bytes": 11797,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v026_glow.png",
+      "sha256": "9759EDF400BE7AD64D85BB441D33B5FBF588A9D90F27101E91FEFAFCB1EA1253",
+      "bytes": 12534,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v027_glow.png",
+      "sha256": "9759EDF400BE7AD64D85BB441D33B5FBF588A9D90F27101E91FEFAFCB1EA1253",
+      "bytes": 12534,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v028_glow.png",
+      "sha256": "42332ED9339D857EA44EC007F1B04F047D06A8B778CCE1763C43818277DC4580",
+      "bytes": 11320,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v029_glow.png",
+      "sha256": "A676671DC2431FDFA637EBFB613C753518BB9F0C116A2AA60C7929840B78E2AE",
+      "bytes": 12119,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v030_glow.png",
+      "sha256": "30827D6FD44BBBE9806CDF32B4208AF80EBC7765DEE0C576C0AFE64021C77DBF",
+      "bytes": 12853,
+      "status": "byte-identical-to-baseline"
+    },
+    {
+      "path": "assets/echopickaxe/textures/item/echo_pickaxe_v031_glow.png",
+      "sha256": "30827D6FD44BBBE9806CDF32B4208AF80EBC7765DEE0C576C0AFE64021C77DBF",
+      "bytes": 12853,
+      "status": "byte-identical-to-baseline"
+    }
+  ],
+  "previews": [
+    "artwork/validation/v0.1.9/v0.1.9-delivery-four-state-white-dark.png",
+    "artwork/validation/v0.1.9/v0.1.9-tip-native-glow-frontface-white-dark-4frames.png"
+  ]
+}

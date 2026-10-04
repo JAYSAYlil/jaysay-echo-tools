@@ -1,0 +1,7 @@
+{
+  "type": "echopickaxe:sculk_echo_shard",
+  "fortune_chances": [0.1, 0.15, 0.2, 0.25],
+  "conditions": [
+    { "condition": "forge:loot_table_id", "loot_table_id": "minecraft:blocks/sculk" }
+  ]
+}
