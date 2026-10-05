@@ -1,0 +1,1 @@
+A sculk-forged pickaxe that senses nearby ores and guides you to them with a luminous echo trail.

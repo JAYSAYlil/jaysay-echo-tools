@@ -1,79 +1,163 @@
-# 上传指南：CurseForge + Modrinth
+# 上传材料包（CurseForge + Modrinth）
 
-目标版本 **0.3.2**　正式包 `jaysay-echo-tools-0.3.2.jar`（9,300,655 字节）
-SHA-256 `FEF68695D80A2C46390CB4D3AE2F6B01C18A1FDEE0A4822E71B4C2219F951193`
+**版本速查**
 
-## 一、物料总表
+| 项 | 值 |
+| --- | --- |
+| 正式包 | `jaysay-echo-tools-0.3.2.jar`（在项目根目录，`build/libs/` 里同名文件一致） |
+| 大小 | 9,300,655 字节 |
+| SHA-256 | `FEF68695D80A2C46390CB4D3AE2F6B01C18A1FDEE0A4822E71B4C2219F951193` |
+| 版本号 | `0.3.2`（Release） |
+| Minecraft | `1.20.1` |
+| 加载器 | `Forge`（开发与验证用 47.4.21） |
+| 环境 | 客户端 + 服务端（**两端都要装同一版本**，网络协议 4） |
+| 名称 | `JaySay's Echo Tools` |
+| 许可 | All Rights Reserved **+ 允许整合包收录** |
 
-| 物料 | 文件 | 用于 |
+---
+
+## 0. 文件用在哪里（一张表看懂）
+
+| 文件 | 用到哪 |
+| --- | --- |
+| `jaysay-echo-tools-0.3.2.jar` | 两个平台的**文件上传** |
+| `publish/curseforge-icon-400.png` | **CurseForge** 项目头像 |
+| `publish/modrinth-icon-256.png` | **Modrinth** 项目图标（50 KB，限 256 KB 以内） |
+| `publish/logo-128.png` | 仅记录用；128 图标已在 jar 内（游戏内模组列表显示） |
+| `publish/modrinth/gallery/00-banner.png` | Modrinth **特色图**（画廊里设 featured）；CF 画廊第一张 |
+| `publish/modrinth/gallery/01…07-*.png` | 两个平台画廊（CF 用 `publish/curseforge/gallery/` 同名副本） |
+| `publish/modrinth/body.md` | Modrinth **正文**（英文 + 中文小节，整段复制） |
+| `publish/modrinth/summary.txt` | Modrinth **Summary** 一句话 |
+| `publish/modrinth/meta.json` | 字段备查（分类、许可证 ID、链接等） |
+| `publish/curseforge/description-en.md` | CurseForge **英文描述** |
+| `publish/curseforge/description-zh.md` | CurseForge **中文描述**（若界面支持多语言描述） |
+| `publish/curseforge/summary.txt` | CurseForge **Summary** |
+| `publish/curseforge/changelog-0.3.2-en.md` / `-zh.md` | 两个平台的**版本 changelog** |
+
+---
+
+## 1. Modrinth（约 6 分钟）
+
+### 1.1 建项目
+
+打开 <https://modrinth.com> → 右上头像 → **Create a project** → 类型选 **Mod**。逐字段：
+
+| 字段 | 填什么 |
+| --- | --- |
+| Name | `JaySay's Echo Tools` |
+| Slug / URL | 保持自动生成的 `jaysay-echo-tools`（**已确认未被占用**） |
+| Summary | 复制 `publish/modrinth/summary.txt` 里那一句 |
+| Project type | `Mod` |
+| Categories | 勾 **Equipment**、**Adventure**、**Utility**、**Game Mechanics** |
+| License | 下拉选 **All Rights Reserved**（其内部 ID 即 `LicenseRef-All-Rights-Reserved`） |
+| Environment | **Client** 与 **Server** 都勾（两边都必须安装） |
+| Source code URL | `https://github.com/JAYSAYlil/jaysay-echo-tools` |
+| Issues URL | `https://github.com/JAYSAYlil/jaysay-echo-tools/issues` |
+| Description / Body | 整个文件内容复制粘贴：`publish/modrinth/body.md` |
+| Icon | 上传 `publish/modrinth-icon-256.png` |
+
+### 1.2 上传版本
+
+项目页 → **Versions** → **Create version**：
+
+| 字段 | 填什么 |
+| --- | --- |
+| Version number | `0.3.2` |
+| Name | `0.3.2`（可留空，自动用版本号） |
+| Release channel | `Release` |
+| Loaders | 勾 **Forge** |
+| Game versions | 勾 **1.20.1** |
+| Dependencies | 不需要（无前置模组） |
+| File | 上传 `jaysay-echo-tools-0.3.2.jar` |
+| Changelog | 复制 `publish/curseforge/changelog-0.3.2-en.md` |
+
+### 1.3 画廊
+
+项目页 → **Gallery** → 按 `00 → 07` 顺序上传 `publish/modrinth/gallery/` 里的图，
+把 **00-banner.png 设为 Featured**（这就是项目页顶部那张宽幅图）。
+每张图的标题/描述在下面第 4 节。
+
+### 1.4 提交
+
+检查无误 → **Submit for review** → 等审核（通常几小时到 1 天）。
+
+---
+
+## 2. CurseForge（约 5 分钟）
+
+### 2.1 建项目
+
+打开 <https://authors.curseforge.com/>（用 CurseForge 账号登录）→ **Create Project** → Game `Minecraft` / Project type `Mods`：
+
+| 字段 | 填什么 |
+| --- | --- |
+| Project name | `JaySay's Echo Tools` |
+| Summary | 复制 `publish/curseforge/summary.txt` |
+| Category | `Equipment`、`Adventure` |
+| Game version | `1.20.1` |
+| Mod loader | `Forge` |
+| Environment | `Client and Server` |
+| License | `All Rights Reserved`，并把**允许整合包收录**设为允许 |
+| Avatar | 上传 `publish/curseforge-icon-400.png` |
+| Description | 复制 `publish/curseforge/description-en.md`（支持 Markdown；若可加中文描述，用 `description-zh.md`） |
+
+> 界面上措辞可能略有差别（例如 "Include in modpacks" / "Allow distribution in modpacks"），意思一样，勾允许即可。
+
+### 2.2 上传文件
+
+项目页 → **Files** → **Upload File**：
+
+| 字段 | 填什么 |
+| --- | --- |
+| File | `jaysay-echo-tools-0.3.2.jar` |
+| Display name | `0.3.2` |
+| Release type | `Release` |
+| Game versions | 勾 Minecraft `1.20.1` + Forge `47.4.21` |
+| Changelog | 复制 `publish/curseforge/changelog-0.3.2-en.md` |
+
+### 2.3 画廊
+
+项目页 → **Gallery** → 上传 `publish/curseforge/gallery/` 里的 8 张图（顺序同上，第一张就是门面图）。
+
+### 2.4 提交
+
+新项目和文件都会进审核（通常几小时到 1–2 天）。
+
+---
+
+## 3. 容易踩的坑
+
+1. **Modrinth 的特色图不是单独字段**：它是画廊里 `featured=true` 的那张，所以务必先传 `00-banner.png` 并勾 featured，否则项目页顶部会空着。
+2. **图标规格**：CF 要 400×400，Modrinth 要 256×256 且 ≤256 KB——用表里给的两个文件，别混用。
+3. **许可两边都选 All Rights Reserved**；CF 还要额外勾"允许整合包"，Modrinth 不需要（LICENSE 文件里已写明允许整合包）。
+4. **两端都要装**：Environment 一定勾 Client + Server，否则玩家以为服务端不用装，进服会因协议不匹配被拒。
+5. **正文语言**：Modrinth 只有单一正文，我们的 `body.md` 已是"英文正文 + 中文小节"；CF 若支持多语言描述就中英各一份。
+6. **别用 0.3.0 / 0.3.1 的 changelog**：那两个版本没公开发布，0.3.2 的 changelog 已包含它们的内容（旧文件已挪到 `publish/archive/changelogs/`）。
+7. 上传前确认 jar 就是上面那串 SHA-256：`Get-FileHash jaysay-echo-tools-0.3.2.jar`。
+
+---
+
+## 4. 画廊图的标题与描述（复制用）
+
+顺序即上传顺序，标题/描述两个平台都能填。
+
+| 文件 | 标题 | 描述 |
 | --- | --- | --- |
-| 项目图标 400×400 | `publish/curseforge-icon-400.png` | CurseForge 头像 |
-| 项目图标 256×256 | `publish/modrinth-icon-256.png` | Modrinth 图标（限 256 KB，实际 50 KB） |
-| jar 内图标 128×128 | `publish/logo-128.png`（已在 jar 内） | 游戏内模组列表 |
-| 宽幅特色图 1280×640 | `publish/modrinth/gallery/00-banner.png` | Modrinth 项目页顶部；CF 画廊第一张 |
-| 画廊截图 ×7 | `publish/modrinth/gallery/01..07-*.png` | 两个平台的画廊（CF 另有同名副本在 `publish/curseforge/gallery/`） |
-| 英文简介（长） | `publish/curseforge/description-en.md` | CF 描述 / Modrinth 正文（已合并进 `publish/modrinth/body.md`） |
-| 中文简介（长） | `publish/curseforge/description-zh.md` | CF 中文描述；Modrinth 正文末尾的中文小节 |
-| Modrinth 正文 | `publish/modrinth/body.md` | 英文正文 + `---` + 中文说明，5,068 字符 |
-| 更新日志 0.3.2 | `publish/curseforge/changelog-0.3.2-en.md` / `-zh.md` | 两个平台的版本 changelog |
-| 平台字段表 | `publish/PUBLISH-CHECKLIST.md` | CF 建项目/传文件的逐字段对照 |
-| Modrinth 元数据 | `publish/modrinth/meta.json` | 自动化脚本读取的全部字段 |
-| 图标/特色图生成器 | `publish/make_icon.py`、`publish/make_banner.py` | 需要换风格时重跑 |
+| 00-banner.png | JaySay's Echo Tools | A sculk-forged pickaxe that senses nearby ores and guides you with a luminous echo trail. |
+| 01-dark-room-in-hand.png | Glows in the dark | The emissive parts stay lit with no shader pack and no OptiFine required. |
+| 02-creative-tab-a.png | Its own creative tab | Pickaxe, smithing template, Echo Crystal and nine upgrade crystals. |
+| 03-creative-tab-b.png | Upgrade crystals | Four upgrade paths, three levels each, applied on a smithing table. |
+| 04-white-background.png | Clean pixel art | True 64px sprites with a fixed binary transparency mask. |
+| 05-first-person-max-tier.png | Fully upgraded | Resonance II, Frequency III, Tuning I and Extension III on one pickaxe. |
+| 06-upgrade-comparison.png | Every upgrade level | Base and all 95 upgrade models, side by side in the inventory. |
+| 07-held-in-context.png | In hand | First- and third-person scales tuned for the 64px model. |
 
-## 二、两个平台的关键差异
+---
 
-| | CurseForge | Modrinth |
-| --- | --- | --- |
-| 项目创建 | 网页，且新项目要过审核 | 网页或 API；可先建**草稿**再补版本 |
-| 本机脚本可达性 | ❌ Cloudflare 拦非浏览器请求 | ✅ **完全可达**（实测 200） |
-| 上传方式 | 网页手动（以后可接 CI） | 网页手动 **或** 一键脚本全自动 |
-| 许可字段 | `All Rights Reserved` + 勾选允许整合包 | `LicenseRef-All-Rights-Reserved` |
-| 正文语言 | 支持多语言描述 | 单正文；本仓库用"英文正文 + 中文小节" |
-| 图标 | 400×400 | 256×256，≤256 KB |
-| 特色图 | 画廊第一张 | 画廊中 `featured=true` 的那张 |
-
-## 三、Modrinth
-
-### 路线 A：一键自动（推荐）
-
-1. 打开 <https://modrinth.com/settings/pats>，创建一个 PAT，勾选：
-   **`PROJECT_CREATE`、`PROJECT_WRITE`、`VERSION_CREATE`**
-2. 我把 token 写进环境变量或本地文件（不要贴聊天里），然后：
+## 5. 需要换素材时
 
 ```powershell
-.\tools\publish_modrinth.ps1 -Token "<mrp_...>" -DryRun   # 先校验，不发任何请求
-.\tools\publish_modrinth.ps1 -Token "<mrp_...>"           # 正式发布
+.\tools\publish_modrinth.ps1 -Token "<mrp_...>" -DryRun   # 只想核对字段时用（不需要 token 也能跑到这里）
+python publish/make_icon.py     # 重新生成图标（400 / 256 / 128）
+python publish/make_banner.py   # 重新生成特色图与画廊副本
 ```
-
-脚本会按顺序做：**创建草稿项目**（含图标与正文）→ **上传 0.3.2 版本**（forge / 1.20.1 / release / changelog）→ **逐张上传 8 张画廊图**（banner 标 featured）。
-结束后产物在 <https://modrinth.com/mod/jaysay-echo-tools>，你检查无误后点 **Submit for review**（提交审核是人工一步，我不代按）。
-
-已确认：`jaysay-echo-tools` 这个 slug 在 Modrinth 上**尚未被占用**。
-
-### 路线 B：网页手动
-
-1. <https://modrinth.com> 登录 → Create a project → 类型 `Mod`
-2. 名称 `JaySay's Echo Tools`、summary 用 `publish/modrinth/meta.json` 里的 `summary`
-3. 分类勾 `Equipment`、`Adventure`、`Utility`、`Game Mechanics`
-4. 许可选 `All Rights Reserved`；环境勾 Client + Server
-5. 正文粘贴 `publish/modrinth/body.md`
-6. 上传图标 `publish/modrinth-icon-256.png`
-7. 版本页：版本号 `0.3.2`、渠道 `Release`、加载器 `Forge`、游戏版本 `1.20.1`、文件 `jaysay-echo-tools-0.3.2.jar`、changelog 粘贴 `changelog-0.3.2-en.md`
-8. 画廊按 `00→07` 顺序上传，把 00 设为 featured
-
-## 四、CurseForge
-
-本机脚本被 Cloudflare 挡（详见 `publish/PUBLISH-CHECKLIST.md` 第六节），走网页：
-
-1. <https://authors.curseforge.com/> 登录 → Create Project → `Minecraft` / `Mods`
-2. 字段全部照 `publish/PUBLISH-CHECKLIST.md` 的表格填（名称、summary、分类 Equipment+Adventure、1.20.1、Forge、Client and Server、All Rights Reserved + 允许整合包、图标 400×400、描述英文版）
-3. 建好后进 Files → Upload File，传 `jaysay-echo-tools-0.3.2.jar`，版本 `1.20.1` + Forge `47.4.21`，changelog 粘贴 `changelog-0.3.2-en.md`
-4. 画廊按 `publish/curseforge/gallery/` 顺序上传（第一张 banner 会被当作门面图）
-
-## 五、以后每次发版
-
-1. 改 `gradle.properties` 的版本 → `验收.bat --smoke` → `验收.bat --install`
-2. 生成脱敏快照 → 公开仓库提交 → 打 tag → GitHub Release 附 jar
-3. 写新版 `publish/curseforge/changelog-<版本>-en.md` 与 `-zh.md`
-4. 更新 `publish/modrinth/meta.json` 的 `version` 段（版本号、文件、changelog 路径）
-5. 跑 `tools/publish_modrinth.ps1` 自动发 Modrinth；CurseForge 走网页（或以后接 GitHub Actions）
