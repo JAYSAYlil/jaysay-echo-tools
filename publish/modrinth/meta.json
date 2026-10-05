@@ -1,0 +1,85 @@
+{
+  "project": {
+    "title": "JaySay's Echo Tools",
+    "slug": "jaysay-echo-tools",
+    "summary": "A sculk-forged pickaxe that senses nearby ores and guides you to them with a luminous echo trail.",
+    "project_type": "mod",
+    "categories": [
+      "equipment",
+      "adventure",
+      "utility",
+      "game-mechanics"
+    ],
+    "license_id": "LicenseRef-All-Rights-Reserved",
+    "client_side": "required",
+    "server_side": "required",
+    "source_url": "https://github.com/JAYSAYlil/jaysay-echo-tools",
+    "issues_url": "https://github.com/JAYSAYlil/jaysay-echo-tools/issues",
+    "body_file": "publish/modrinth/body.md",
+    "icon_file": "publish/modrinth-icon-256.png"
+  },
+  "version": {
+    "name": "0.3.2",
+    "version_number": "0.3.2",
+    "version_type": "release",
+    "loaders": [
+      "forge"
+    ],
+    "game_versions": [
+      "1.20.1"
+    ],
+    "changelog_file": "publish/curseforge/changelog-0.3.2-en.md",
+    "file": "jaysay-echo-tools-0.3.2.jar",
+    "dependencies": []
+  },
+  "gallery": [
+    {
+      "file": "publish/modrinth/gallery/00-banner.png",
+      "featured": true,
+      "title": "JaySay's Echo Tools",
+      "description": "A sculk-forged pickaxe that senses nearby ores and guides you with a luminous echo trail."
+    },
+    {
+      "file": "publish/modrinth/gallery/01-dark-room-in-hand.png",
+      "featured": false,
+      "title": "Glows in the dark",
+      "description": "The emissive parts stay lit with no shader pack and no OptiFine required."
+    },
+    {
+      "file": "publish/modrinth/gallery/02-creative-tab-a.png",
+      "featured": false,
+      "title": "Its own creative tab",
+      "description": "Pickaxe, smithing template, Echo Crystal and nine upgrade crystals."
+    },
+    {
+      "file": "publish/modrinth/gallery/03-creative-tab-b.png",
+      "featured": false,
+      "title": "Upgrade crystals",
+      "description": "Four upgrade paths, three levels each, applied on a smithing table."
+    },
+    {
+      "file": "publish/modrinth/gallery/04-white-background.png",
+      "featured": false,
+      "title": "Clean pixel art",
+      "description": "True 64px sprites with a fixed binary transparency mask."
+    },
+    {
+      "file": "publish/modrinth/gallery/05-first-person-max-tier.png",
+      "featured": false,
+      "title": "Fully upgraded",
+      "description": "Resonance II, Frequency III, Tuning I and Extension III on one pickaxe."
+    },
+    {
+      "file": "publish/modrinth/gallery/06-upgrade-comparison.png",
+      "featured": false,
+      "title": "Every upgrade level",
+      "description": "Base and all 95 upgrade models, side by side in the inventory."
+    },
+    {
+      "file": "publish/modrinth/gallery/07-held-in-context.png",
+      "featured": false,
+      "title": "In hand",
+      "description": "First- and third-person scales tuned for the 64px model."
+    }
+  ]
+}

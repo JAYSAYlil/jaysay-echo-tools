@@ -3,8 +3,14 @@
 **A sculk-forged pickaxe that senses nearby ores and guides you to them with a luminous echo trail.**
 
 Minecraft Java **1.20.1** · Forge **47.x** (developed and verified against Forge 47.4.21)
+[中文说明 (Chinese README)](README.md)
 
----
+## Download
+
+- [GitHub Releases](https://github.com/JAYSAYlil/jaysay-echo-tools/releases) — latest `jaysay-echo-tools-x.y.z.jar`
+- CurseForge — *link added once the project is approved*
+
+Drop the jar into your Forge instance's `mods` folder. **Client and server must run the same version** (network protocol 4); on a dedicated server every player needs the mod too.
 
 ## What it does
 
@@ -22,17 +28,17 @@ The Echo Pickaxe is netherite-tier: **2031 durability**, enchantability 15, 6 at
 
 ## Upgrades
 
-Four independent paths, applied on a smithing table with the template, your pickaxe and the matching crystal. You must upgrade one level at a time; other upgrades, your ore filter, name, enchantments and durability damage are kept.
+Four independent paths, applied on a smithing table with the template, your pickaxe and the matching crystal. One level at a time; other upgrades, your ore filter, name, enchantments and durability damage are kept.
 
 | Path | Unupgraded | I | II | III |
 | --- | --- | --- | --- | --- |
 | **Resonance** — scan cooldown | 5 s | 3 s | 1 s | — |
-| | *+ mining speed on pickaxe-mineable blocks* | +1 | +2 | — |
+| *+ mining speed on pickaxe-mineable blocks* | — | +1 | +2 | — |
 | **Frequency** — veins found / guidance time | 1 / 7 s | 3 / 14 s | 5 / 21 s | 8 / 28 s |
 | **Tuning** — ore filter | all ores | unlocks the filter | — | — |
 | **Extension** — scan radius | 12 blocks | 18 | 24 | 30 |
 
-Once Tuning is unlocked, **sneak-right-click** opens the ore filter (all ores, coal, copper, iron, gold, redstone, lapis, diamond, emerald, nether quartz, nether gold, ancient debris). Ores that touch on a block face merge into one vein.
+Once Tuning is unlocked, **sneak-right-click** opens the ore filter (all ores, coal, copper, iron, gold, redstone, lapis, diamond, emerald, nether quartz, nether gold, ancient debris). Ores touching on a block face merge into one vein.
 
 ## Extras
 
@@ -42,35 +48,17 @@ Once Tuning is unlocked, **sneak-right-click** opens the ore filter (all ores, c
 - **Own creative tab** with all 12 items.
 - **Emissive textures** — the glowing parts stay lit in the dark, with no shader pack and no OptiFine required.
 
-## Multiplayer
+## Building from source
 
-Client and server **must install the same version** (network protocol 4). Works on dedicated servers.
+Requires JDK 17.
 
-## Language
+```powershell
+.\验收.bat            # clean build + package audit
+.\验收.bat --smoke    # + isolated client smoke test
+```
 
-English and Simplified Chinese, including item tooltips and advancement text.
-
----
+The release jar lands in `build/libs/` and in the repository root. The project keeps a hash-based verification record for every version under `artwork/validation/`.
 
 ## License
 
-All rights reserved, **but modpacks are welcome**: you may include this mod unmodified in any modpack, on any platform, without asking. Reuploading the mod as a standalone download or reusing its assets in another project is not allowed. See [LICENSE](LICENSE) for the exact terms.
-
-## Download and install
-
-- Grab the latest `jaysay-echo-tools-x.y.z.jar` from [GitHub Releases](https://github.com/JAYSAYlil/jaysay-echo-tools/releases)
-- Drop it into your Forge instance's `mods` folder. Client and server must run the same version (network protocol 4)
-
-## Building from source
-
-Requires JDK 17:
-
-```powershell
-.\构建.bat          # full build + reobfJar, output in build/libs/
-.\验收.bat          # build + package audit
-.\验收.bat --smoke  # also run the isolated client smoke test
-```
-
-## Links
-
-- [GitHub Releases](https://github.com/JAYSAYlil/jaysay-echo-tools/releases) · [Issues](https://github.com/JAYSAYlil/jaysay-echo-tools/issues) · [中文说明](README.md)
+All rights reserved — see [LICENSE](LICENSE). Please do not redistribute the mod or its assets without permission.
